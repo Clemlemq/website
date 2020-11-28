@@ -1,0 +1,219 @@
+body, p {
+  color: white;
+}
+
+.navbar-custom.top-nav-collapse {
+  background-color: white;
+}
+
+.header .text-container {
+  margin-top: 6rem;
+}
+
+.navbar-custom.top-nav-collapse .nav-item .nav-link {
+  color: black;
+}
+
+.navbar-custom.top-nav-collapse .nav-item .nav-link:hover, .navbar-custom.top-nav-collapse .nav-item .nav-link.active {
+  color: black;
+}
+
+.navbar-custom .nav-item .nav-link:hover, .navbar-custom .nav-item .nav-link.active:hover {
+  color: black;
+}
+
+.navbar-custom .dropdown-menu {
+	margin-top: 0;
+	border: none;
+	border-radius: 0.25rem;
+	background-color: white;
+}
+
+.navbar-custom .nav-item .nav-link {
+  color: black;
+}
+
+
+.navbar-custom .dropdown-item:hover {
+	background-color: white;
+}
+
+
+.navbar-custom .dropdown-item:hover .item-text {
+	color: black;
+}
+
+.navbar-custom .dropdown-item .item-text:hover {
+	color: black;
+}
+
+.navbar-custom .dropdown-item {
+  color: black;
+}
+
+.navbar-custom .dropdown-item .item-text:hover {
+	color: none;
+  text-decoration: underline;
+}
+
+.navbar-custom {
+  background-color: white;
+  box-shadow: none;
+  border-bottom: 0.4px solid #0000001a;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-custom.top-nav-collapse {
+  box-shadow: none;
+  border-bottom: 0.4px solid #0000001a;
+}
+
+.header .header-content {
+  padding-top: 8rem;
+}
+
+
+@media (min-width: 768px) {
+  .header .header-content {
+		padding-top:6rem;
+	}
+}
+
+@media (min-width: 992px) {
+    .header .header-content {
+  		padding-top: 7rem;
+    }
+}
+
+@media (min-width: 1200px) {
+  .header .header-content {
+    padding-top: 8rem;
+  }
+}
+
+
+
+h1 {
+	color: #202A35;
+}
+
+.p-large {
+    color: black;
+  }
+
+.white {
+  color: white;
+}
+
+
+.btn-solid-lg {
+	display: inline-block;
+	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
+	border-radius: 10px;
+  border-color: #C93B2B;
+	background-color: #C93B2B;
+	color: #fff;
+	font: 700 0.75rem/0 "Muli", sans-serif;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+.btn-solid-lg:hover {
+	background-color: #202A35;
+	color: white;
+	text-decoration: none;
+  border-color:#202A35;
+}
+
+.btn-solid-reg {
+  border: 0.125rem solid black;
+  background-color: black;
+
+}
+
+.btn-solid-reg:hover {
+  border: 0.125rem solid black;
+  background-color: transparent;
+  color: black;
+}
+
+.btn-solid-reg-white {
+  border: 0.125rem solid white;
+  background-color: white;
+  font: 700 0.75rem/0 "Muli", sans-serif;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border-radius: 2rem;
+  display: inline-block;
+	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
+  color: black;
+}
+
+.btn-solid-reg-white:hover {
+  border: 0.125rem solid white;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+}
+
+.tabs {
+	background-color: #202A35;
+}
+
+.tabs .card .card-icon {
+	background-color: white;
+}
+
+.tabs .card .card-icon .fas,
+.tabs .card .card-icon .far {
+	color: black;
+}
+
+
+.basic-2, .basic-3{
+  background-color: white;
+}
+
+.basic-2 h3, .basic-3 h3 {
+  color: black;
+}
+
+.basic-2 p, .basic-3 p {
+  color: black;
+}
+
+.basic-4 {
+	padding-top: 6.5rem;
+	padding-bottom: 6.75rem;
+	background: none;
+	background-size: cover;
+}
+
+.basic-4 h2 {
+  color: black;
+}
+
+hr.style1{
+	border-top: 1px solid #F4F4F4;
+  float: center;
+  width: 1140px;
+}
+
+.copyright {
+  background-color: #202A35;
+}
+
+a.back-to-top {
+background: #BA4635 url("../images/up-arrow.png") no-repeat center 47%;
+}
+
+a.back-to-top:hover {
+background: #202A35 url("../images/up-arrow.png") no-repeat center 47%;
+}
+
+#cc {
+  color: black;
+  font-weight: 700;
+}
