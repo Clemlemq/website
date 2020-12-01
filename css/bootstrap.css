@@ -1874,7 +1874,7 @@ pre code {
   display: block;
   width: 100%;
   height: calc(1.5em + 0.75rem + 2px);
-  padding: 0.375rem 0.75rem;
+  padding: 0.4rem 0.9rem;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -1883,7 +1883,9 @@ pre code {
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out;
+  -webkit-box-shadow: inset 4px 4px 4px 0px #E3EBFC;
+  box-shadow: inset 4px 4px 4px 0px #E3EBFC;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -2436,7 +2438,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
+  color: #1D2A36;
   background-color: #007bff;
   border-color: #007bff;
 }
@@ -2470,9 +2472,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-secondary {
-  color: #fff;
+  color: #1D2A36;
   background-color: #6c757d;
-  border-color: #6c757d;
+  border-color: #1D2A36, 1px, solid;
 }
 
 .btn-secondary:hover {
